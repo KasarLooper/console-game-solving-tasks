@@ -1,14 +1,15 @@
 package org.consoleGames;
 
 public class Monster {
-    private int x;
-    private int y;
-    private String item;
+    private final int x;
+    private final int y;
+    private final int difficultLevel;
+    private final String icon = "Мм";
 
-    public Monster(int x, int y) {
+    public Monster(int x, int y, int difficultLevel) {
         this.x = x;
         this.y = y;
-        item = "Мм";
+        this.difficultLevel = difficultLevel;
     }
 
     public boolean task(int difficult) {
