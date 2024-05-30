@@ -10,4 +10,20 @@ public class Hero {
         this.y = y;
         this.hp = hp;
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public boolean isDead() {
+        return hp <= 0;
+    }
+
+    public void decreaseHP() {
+        hp--;
+    }
 }

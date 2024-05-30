@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Add main hero">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/Hero.java" afterDir="false" />
+    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Fixing bags and generating main hero">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/SolvingTasksGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/SolvingTasksGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717102484226</updated>
-      <workItem from="1717102485954" duration="5006000" />
+      <workItem from="1717102485954" duration="5410000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1717102857378</created>
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717107218254</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixing bags and generating main hero">
+      <created>1717107847976</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717107847976</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +135,7 @@
     <MESSAGE value="Add small monster" />
     <MESSAGE value="Add big monster" />
     <MESSAGE value="Add main hero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add main hero" />
+    <MESSAGE value="Fixing bags and generating main hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing bags and generating main hero" />
   </component>
 </project>

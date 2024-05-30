@@ -15,4 +15,12 @@ public class Monster {
     public boolean task(int difficult) {
         return true;
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
 }
