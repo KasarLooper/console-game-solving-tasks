@@ -1,9 +1,11 @@
 package org.consoleGames;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class SolvingTasksGame {
-    private static Scanner console = new Scanner(System.in);
+    private static final Scanner console = new Scanner(System.in);
+    private static final Random rd = new Random();
 
     public static void main(String[] args) {
         System.out.print("Привет! Ты готов начать игру? Введи да или нет: ");
@@ -22,6 +24,9 @@ public class SolvingTasksGame {
     private static void startGame() {
         System.out.print("Выбери уровень сложности от 1 до 5: ");
         int difficultGame = console.nextInt();
+        int size = 5;
+
+        Hero hero = new Hero(rd.nextInt(size), size - 1, 3);
     }
 
     private static void printBoard(String[][] board, int hp) {
@@ -32,6 +37,7 @@ public class SolvingTasksGame {
             System.out.println("|");
             printRowSeparate(board[0].length);
         }
+        System.out.println("Жизни: " + hp);
     }
 
     private static void printRowSeparate(int n) {
