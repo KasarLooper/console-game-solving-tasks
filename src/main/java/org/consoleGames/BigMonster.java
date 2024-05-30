@@ -11,4 +11,9 @@ public class BigMonster extends Monster {
     public boolean task(int difficult) {
         return super.task(difficult);
     }
+
+    @Override
+    public String getIcon() {
+        return icon;
+    }
 }

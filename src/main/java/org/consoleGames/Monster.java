@@ -23,4 +23,8 @@ public class Monster {
     public int getY() {
         return y;
     }
+
+    public String getIcon() {
+        return icon;
+    }
 }
