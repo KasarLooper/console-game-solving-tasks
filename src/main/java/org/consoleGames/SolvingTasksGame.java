@@ -20,5 +20,8 @@ public class SolvingTasksGame {
     }
 
     private static void startGame() {
+        System.out.print("Выбери уровень сложности от 1 до 5: ");
+        int difficultGame = console.nextInt();
+
     }
 }
