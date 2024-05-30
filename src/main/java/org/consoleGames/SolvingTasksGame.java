@@ -26,7 +26,16 @@ public class SolvingTasksGame {
         int difficultGame = console.nextInt();
         int size = 5;
 
+        String[][] board = new String[size][size];
+        for (int i = 0; i < size; i++)
+            for (int j = 0; j < size; j++)
+                board[i][j] = "  ";
+
         Hero hero = new Hero(rd.nextInt(size), size - 1, 3);
+        int castleX = rd.nextInt(5);
+        int castleY = 0;
+        board[hero.getY()][hero.getX()] = "Гг";
+        board[castleY][castleX] = "З ";
     }
 
     private static void printBoard(String[][] board, int hp) {
