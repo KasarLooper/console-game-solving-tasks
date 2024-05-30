@@ -31,11 +31,31 @@ public class SolvingTasksGame {
             for (int j = 0; j < size; j++)
                 board[i][j] = "  ";
 
+        int heroX = rd.nextInt(size);
+        int heroY = size - 1;
         Hero hero = new Hero(rd.nextInt(size), size - 1, 3);
-        int castleX = rd.nextInt(5);
+        int castleX = rd.nextInt(size);
         int castleY = 0;
-        board[hero.getY()][hero.getX()] = "Гг";
+        board[heroY][heroX] = "Гг";
         board[castleY][castleX] = "З ";
+
+        int countMonsters = size * (size - 2) - 2;
+        Monster[] monsters = new Monster[countMonsters];
+        while (countMonsters > 0) {
+            int monsterX = rd.nextInt(size);
+            int monsterY = rd.nextInt(size);
+            if (monsterX == heroX && monsterY == heroY)
+                continue;
+            if (monsterX == castleX && monsterY == castleY)
+                continue;
+            countMonsters--;
+            Monster currentMonster;
+            if (rd.nextBoolean())
+                currentMonster = new Monster(monsterX, monsterY, difficultGame);
+            else currentMonster = new BigMonster(monsterX, monsterY, difficultGame);
+            monsters[countMonsters] = currentMonster;
+            board[monsterY][monsterX] = currentMonster.getIcon();
+        }
     }
 
     private static void printBoard(String[][] board, int hp) {
