@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Add small monster">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/BigMonster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/Monster.java" afterDir="false" />
+    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Add big monster">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/Hero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717102484226</updated>
-      <workItem from="1717102485954" duration="4057000" />
+      <workItem from="1717102485954" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1717102857378</created>
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717106494604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add big monster">
+      <created>1717106940088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717106940088</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +119,7 @@
     <MESSAGE value="Choosing difficult of game" />
     <MESSAGE value="Add board output method" />
     <MESSAGE value="Add small monster" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add small monster" />
+    <MESSAGE value="Add big monster" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add big monster" />
   </component>
 </project>
