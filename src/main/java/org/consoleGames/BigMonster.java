@@ -22,18 +22,22 @@ public class BigMonster extends Monster {
         String task = "";
         int writeAnswer = 0;
         switch (op) {
-            case 0:
+            case 0 -> {
                 task = "Решите пример %d + %d - %d: ";
                 writeAnswer = x + y - z;
-            case 1:
+            }
+            case 1 -> {
                 task = "Решите пример %d + (%d - %d): ";
                 writeAnswer = x + y - z;
-            case 2:
+            }
+            case 2 -> {
                 task = "Решите пример %d - (%d + %d): ";
                 writeAnswer = x - (y + z);
-            case 3:
+            }
+            case 3 -> {
                 task = "Решите пример %d - (%d - %d): ";
                 writeAnswer = x - (y - z);
+            }
         }
         System.out.printf(task, x, y, z);
         int userAnswer = scanner.nextInt();
