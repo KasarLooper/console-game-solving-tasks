@@ -10,6 +10,7 @@ public class Monster {
     private final String icon = "Мм";
     private final Random rd = new Random();
     private final Scanner scanner = new Scanner(System.in);
+    boolean isAlive = true;
 
     public Monster(int x, int y, int difficultLevel) {
         this.x = x;
@@ -44,5 +45,13 @@ public class Monster {
 
     public String getIcon() {
         return icon;
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void kill() {
+        isAlive = false;
     }
 }

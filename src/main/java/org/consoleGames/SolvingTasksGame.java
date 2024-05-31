@@ -35,7 +35,8 @@ public class SolvingTasksGame {
         Hero hero = new Hero(rd.nextInt(size), size - 1, size, 3);
         int castleX = rd.nextInt(size);
         int castleY = 0;
-        board[heroY][heroX] = "Гг";
+        String heroString = "Гг";
+        board[heroY][heroX] = heroString;
         board[castleY][castleX] = "З ";
 
         int countMonsters = size * (size - 2) - 2;
@@ -60,12 +61,32 @@ public class SolvingTasksGame {
             printBoard(board, hero.getHp());
             System.out.print("Введи координаты, куда ты хочешь шагнуть: ");
             String[] xy = console.nextLine().split(" ");
-            heroX = Integer.parseInt(xy[0]) - 1;
-            heroY = Integer.parseInt(xy[1]) - 1;
-            if (hero.isMoveCorrect(heroX, heroY)) {
+            int newHeroX = Integer.parseInt(xy[0]) - 1;
+            int newHeroY = Integer.parseInt(xy[1]) - 1;
+            if (hero.isMoveCorrect(newHeroX, newHeroY)) {
                 hero.move(heroX, heroY);
+                board[heroY][heroX] = "  ";
+                board[newHeroY][newHeroX] = heroString;
+
+                heroX = newHeroX;
+                heroY = newHeroY;
+
                 if (heroX == castleX && heroY == castleY) {
-                    System.out.println("Вы достигли замка. Вы победили!");
+                    System.out.println("Вы достигли замка. Вы выиграли!");
+                    break;
+                }
+                for (Monster monster : monsters)
+                    if (monster.getX() == heroX && monster.getY() == heroY && monster.isAlive()) {
+                        if (monster.task(difficultGame)) {
+                            monster.kill();
+                            board[monster.getY()][monster.getX()] = heroString;
+                        } else {
+                            hero.decreaseHP();
+                        }
+                    }
+
+                if (hero.isDead()) {
+                    System.out.println("Вы проиграли!");
                     break;
                 }
             } else System.out.println("Невозможный ход");

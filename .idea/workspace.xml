@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Making big monster's task">
+    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Process win">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/BigMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/BigMonster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/SolvingTasksGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/SolvingTasksGame.java" afterDir="false" />
     </list>
@@ -56,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717102484226</updated>
       <workItem from="1717102485954" duration="7414000" />
-      <workItem from="1717144138758" duration="1213000" />
+      <workItem from="1717144138758" duration="3664000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1717102857378</created>
@@ -170,7 +169,42 @@
       <option name="project" value="LOCAL" />
       <updated>1717145348328</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixing bags">
+      <created>1717145499806</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717145499806</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixing bags">
+      <created>1717145560286</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717145560286</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Check that move is correct">
+      <created>1717145894606</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717145894606</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Move hero using input x and y">
+      <created>1717147399897</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717147399897</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Process win">
+      <created>1717147540669</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717147540669</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +236,10 @@
     <MESSAGE value="Generating monsters" />
     <MESSAGE value="Making small monster's task" />
     <MESSAGE value="Making big monster's task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making big monster's task" />
+    <MESSAGE value="Fixing bags" />
+    <MESSAGE value="Check that move is correct" />
+    <MESSAGE value="Move hero using input x and y" />
+    <MESSAGE value="Process win" />
+    <option name="LAST_COMMIT_MESSAGE" value="Process win" />
   </component>
 </project>
