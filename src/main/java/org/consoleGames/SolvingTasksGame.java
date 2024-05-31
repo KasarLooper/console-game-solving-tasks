@@ -11,13 +11,12 @@ public class SolvingTasksGame {
         System.out.print("Привет! Ты готов начать игру? Введи да или нет: ");
         String answer = console.nextLine();
         switch (answer) {
-            case "да":
+            case "да" -> {
                 System.out.println("Тогда погнали!");
                 startGame();
-            case "нет":
-                System.out.println("Жалко :(");
-            default:
-                System.out.println("Некорректный ввод");
+            }
+            case "нет" -> System.out.println("Жалко :(");
+            default -> System.out.println("Некорректный ввод");
         }
     }
 

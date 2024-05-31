@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Generating castle">
+    <list default="true" id="298757ba-d4e9-4d0a-a862-1368516dfaeb" name="Changes" comment="Making big monster's task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/BigMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/BigMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/consoleGames/SolvingTasksGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/consoleGames/SolvingTasksGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.consoleGames" />
@@ -52,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717102484226</updated>
-      <workItem from="1717102485954" duration="6525000" />
+      <workItem from="1717102485954" duration="7414000" />
+      <workItem from="1717144138758" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1717102857378</created>
@@ -145,7 +149,28 @@
       <option name="project" value="LOCAL" />
       <updated>1717108747373</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Generating monsters">
+      <created>1717109970417</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717109970417</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Making small monster's task">
+      <created>1717144848113</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717144848113</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Making big monster's task">
+      <created>1717145348328</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717145348328</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +199,9 @@
     <MESSAGE value="Adding getters and setters to hero and monster classes" />
     <MESSAGE value="Adding getter to monster icon" />
     <MESSAGE value="Generating castle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generating castle" />
+    <MESSAGE value="Generating monsters" />
+    <MESSAGE value="Making small monster's task" />
+    <MESSAGE value="Making big monster's task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making big monster's task" />
   </component>
 </project>

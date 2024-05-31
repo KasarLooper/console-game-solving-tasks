@@ -23,10 +23,10 @@ public class Monster {
         String task = "";
         int writeAnswer;
         if (rd.nextBoolean()) {
-            task = "Решите пример: %d + %d: ";
+            task = "Решите пример %d + %d: ";
             writeAnswer = x + y;
         } else {
-            task = "Решите пример: %d - %d: ";
+            task = "Решите пример %d - %d: ";
             writeAnswer = x - y;
         }
         System.out.printf(task, x, y);

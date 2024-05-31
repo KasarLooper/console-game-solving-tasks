@@ -14,7 +14,7 @@ public class BigMonster extends Monster {
 
     @Override
     public boolean task(int difficult) {
-        int bound = 10 * difficult;
+        int bound = 10 * (difficult + 1);
         int x = rd.nextInt(bound);
         int y = rd.nextInt(bound);
         int z = rd.nextInt(bound);
