@@ -64,6 +64,10 @@ public class SolvingTasksGame {
             heroY = Integer.parseInt(xy[1]) - 1;
             if (hero.isMoveCorrect(heroX, heroY)) {
                 hero.move(heroX, heroY);
+                if (heroX == castleX && heroY == castleY) {
+                    System.out.println("Вы достигли замка. Вы победили!");
+                    break;
+                }
             } else System.out.println("Невозможный ход");
         }
     }
