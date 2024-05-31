@@ -28,11 +28,20 @@ public class Hero {
         return y;
     }
 
+    public int getHp() {
+        return hp;
+    }
+
     public boolean isDead() {
         return hp <= 0;
     }
 
     public void decreaseHP() {
         hp--;
+    }
+
+    public void move(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 }

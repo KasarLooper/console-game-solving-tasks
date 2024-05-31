@@ -55,6 +55,17 @@ public class SolvingTasksGame {
             monsters[countMonsters] = currentMonster;
             board[monsterY][monsterX] = currentMonster.getIcon();
         }
+
+        while (true) {
+            printBoard(board, hero.getHp());
+            System.out.print("Введи координаты, куда ты хочешь шагнуть: ");
+            String[] xy = console.nextLine().split(" ");
+            heroX = Integer.parseInt(xy[0]) - 1;
+            heroY = Integer.parseInt(xy[1]) - 1;
+            if (hero.isMoveCorrect(heroX, heroY)) {
+                hero.move(heroX, heroY);
+            } else System.out.println("Невозможный ход");
+        }
     }
 
     private static void printBoard(String[][] board, int hp) {
