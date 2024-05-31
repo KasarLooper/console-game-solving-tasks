@@ -32,7 +32,7 @@ public class SolvingTasksGame {
 
         int heroX = rd.nextInt(size);
         int heroY = size - 1;
-        Hero hero = new Hero(rd.nextInt(size), size - 1, 3);
+        Hero hero = new Hero(rd.nextInt(size), size - 1, size, 3);
         int castleX = rd.nextInt(size);
         int castleY = 0;
         board[heroY][heroX] = "Гг";
